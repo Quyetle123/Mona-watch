@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body{
+    height: 100vh;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/slide-bg-1.jpg);
+    background-size: cover;
+}
+
+/* .header{
+    width: 94%;
+    height: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3%;
+} */
+
+.header__title{
+    font-size: 25px;
+    font-weight: 600;
+    color: blue;
+    text-shadow: 0 0 5px red;
+}
+
+.header__title2{
+    color: green;
+}
+
+.search-box{
+    background: rgba(9, 20, 38, 0.4);
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+
+.search-box__menu{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    transition: all 0.5s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box__menu a{
+    color: white;
+    text-decoration: none;
+    margin-right: 45px;
+}
+
+.search-box__btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: dimgray;
+}
+
+.open{
+    width: 550px;
+}
+
+.main{
+    height: 73%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.img-future {
+    transition: 1s;
+}
+
+.list-image{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.list-image div{
+    flex: 1;
+    padding: 1px;
+    opacity: 0.3;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.list-image div:hover{
+    opacity: 1;
+    background-color: orangered;
+}
+
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+/**/
+
+.wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://i.pinimg.com/originals/6a/ba/8d/6aba8d6fe7a455389b50d24cfbc84316.jpg);
+}
+
+.form__login{
+    max-width: 450px;
+    border-radius: 3px;
+    background: rgba(9, 20, 38, 0.8);
+    flex-grow: 1;
+    padding: 30px 30px 40px 30px;
+    box-shadow: 0 0 17px 2px rgba(255, 255, 255, 0.8);
+}
+
+.form__heading{
+    font-size: 25px;
+    color: #f5f5f5;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form__group{
+    border-bottom: 1px solid #fff;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.form__group i{
+    color: #fff;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+.form__input{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #f5f5f5;
+    flex-grow: 1;
+}
+
+.form__input::placeholder{
+    color: #f5f5f5;
+}
+
+.eye i{
+    padding-right: 0;
+    cursor: pointer;
+    margin-top: 2px;
+}
+
+.remember-forgot{
+    height: 30px;
+    color: #f5f5f5;
+}
+.remember-forgot a{
+    float: right;
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+.form-box button{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    color: white;
+    border: 1px solid white ;
+    height: 30px;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.form-box button:hover{
+    background-color: white;
+    color: black;
+}
+
+.diffrent-title{
+    color: #f5f5f5;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.diffrent-login{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.login-facebook{
+    width: 170px;
+    height: 30px;
+    color: #f5f5f5;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    transition: 0.5s;
+}
+
+.login-facebook:hover{
+    background-color: #f5f5f5;
+    color: black;
+    cursor: pointer;
+}
+
+.login-or{
+    display: flex;
+    align-items: center;
+    color: #f5f5f5;
+}
+
+.login-google{
+    width: 170px;
+    height: 30px;
+    color: #f5f5f5;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    transition: 0.5s;
+}
+
+.login-google:hover{
+    background-color: #f5f5f5;
+    color: black;
+    cursor: pointer;
+}
+
+/**/
+
+.choosesex{
+    display: flex;
+    color: #f5f5f5;
+}
+
+.choosesex input {
+    margin-left: 30px;
+}
+
+.dateofbirth{
+    color: #f5f5f5;
+    margin: 15px 0;
+}
+
+.dateofbirth input{
+    width: 74%;
+    margin-left: 20px;
+}
+
+.rules{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.rules a{
+    color: #fff;
+}
+
+

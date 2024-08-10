@@ -1,0 +1,36 @@
+.adminHome{
+    background-color: #e7e7e799;
+    padding: 20px 20px 57px 20px;
+}
+
+.mainStatistics{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainStatistics-box{
+    width: 21%;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.mainStatistics-title{
+    margin-left: 2px;
+}
+
+.mainStatistics-title h2{
+    margin-top: 5px;
+}
+
+.chart{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.chart__left{
+    padding: 30px;
+    background-color: #fff;
+}

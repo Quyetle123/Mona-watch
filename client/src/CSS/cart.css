@@ -1,0 +1,15 @@
+.cart {
+    display: flex;
+    padding: 50px 150px;
+}
+
+.cart-article {
+    width: 64%;
+    height: 500px;
+}
+
+.cart-aside{
+    margin-left: 1%;
+    width: 35%;
+    height: 500px;
+}

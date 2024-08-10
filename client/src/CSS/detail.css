@@ -1,0 +1,53 @@
+.detail {
+    display: flex;
+    padding: 50px 150px;
+}
+
+.detail-aside{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.detail-aside img{
+    width: 90%;
+}
+
+.detail-article {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-article h1 {
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.detail-article h2 {
+    font-size: 30px;
+    color: #C89979;
+    margin-top: 10px;
+}
+
+.detail-article p {
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+.detail-article button {
+    padding: 8px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color: #C89979;
+    border: none;
+    border-radius: 3px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#addCart-btn{
+    margin-top: 20px;
+    background-color: rgb(150, 150, 150);
+}

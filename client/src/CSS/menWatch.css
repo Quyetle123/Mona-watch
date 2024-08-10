@@ -1,0 +1,148 @@
+.watchList{
+    display: flex;
+    padding: 0 150px;
+}
+.watchList-aside{
+    width: 21%;
+    margin-top: 50px;
+}
+
+.watchList-aside h3 {
+    margin: 20px 0 10px 0;
+}
+
+.watchList-aside p {
+    margin-top: 10px;
+}
+
+.watchList-article{
+    position: relative;
+    margin-left: 4%;
+    width: 74%;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.search{
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+.flast__product-mw{
+    width: 24%;
+    margin: 0.4%;
+    height: 400px;
+    border: 1px solid rgba(204, 204, 215, 0.6);
+    border-radius: 3px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+.flast__product-top-mw{
+    width: 277.5;
+    height: 250px;
+    border-bottom: 1px solid rgba(204, 204, 215, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flast__product-top-box-mw{
+    width: 98%;
+    position: relative;
+}
+
+.flast__product-img-mw{
+    width: 96%;
+}
+
+.flast__product-heart-mw{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #c0c0c0;
+    font-size: 25px;
+    display: none;
+    /* transition: 0.5s; */
+}
+
+.sanpham:hover .flast__product-heart-mw{
+    display: block;
+}
+
+.sanpham-mw{
+    cursor: pointer;
+}
+
+.flast__product-heart-mw i{
+    border: 1px solid #c0c0c0;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.flast__product-bottom-mw{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flast__product-name-mw{
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 40px;
+}
+
+.flast__product-price-mw{
+    font-size: 16px;
+    font-weight: bold;
+    color: #C89979;
+    margin-top: 10px;
+}
+
+.flast__product-btn-mw{
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    border: 1px solid #C89979;
+    background-color: #C89979;
+    border-radius: 1px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.flast__product-btn-mw a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.flast__product-price-mw del{
+    color: rgba(199, 152, 121, 0.6);
+    font-weight: 300;
+}
+
+.flast__product-discount-mw{
+    position: absolute;
+    top: 27px;
+    left: -8px;
+    color: white;
+    width: 42px;
+    height: 42px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #C89979;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.flast__product-page-mw{
+    position: absolute;
+    bottom: -50px;
+    right: 0;
+}
